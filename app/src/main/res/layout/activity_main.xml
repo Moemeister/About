@@ -128,4 +128,13 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         />
+    <Button
+        android:id="@+id/btn_share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/company_name"
+        android:layout_centerInParent="true"
+        android:onClick="share"
+        android:layout_marginBottom="20dp"
+        android:text="Share"/>
 </RelativeLayout>
